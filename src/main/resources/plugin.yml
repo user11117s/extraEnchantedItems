@@ -1,0 +1,6 @@
+name: EnchantedFoodAndOres
+version: '1.0-SNAPSHOT'
+main: com.array64.enchantedFoodAndOres.EnchantedFoodAndOres
+api-version: '1.21'
+authors: [ Array64 ]
+description: Adds enchanted versions of ores and foods.
