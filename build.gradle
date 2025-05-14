@@ -57,3 +57,7 @@ processResources {
         expand props
     }
 }
+
+jar {
+    destinationDirectory = file("/Users/arnav/Downloads/Spigot-Related/plugins")
+}
