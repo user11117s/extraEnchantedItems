@@ -1,8 +1,10 @@
 oreName:
-  COAL: 'Enchanted Coal'
-  RAW_IRON: 'Enchanted Raw Iron'
-  RAW_GOLD: 'Enchanted Raw Gold'
-  REDSTONE: 'Enchanted Redstone Dust'
+  IRON_INGOT: 'Enchanted Iron Ingot'
+  GOLD_INGOT: 'Enchanted Gold Ingot'
   DIAMOND: 'Enchanted Diamond'
-  EMERALD: 'Enchanted Emerald'
-  LAPIS_LAZULI: 'Enchanted Lapis Lazuli'
+
+meatName:
+  COOKED_BEEF: 'Enchanted Steak'
+  COOKED_CHICKEN: 'Enchanted Chicken'
+  COOKED_PORKCHOP: 'Enchanted Porkchop'
+  COOKED_MUTTON: 'Enchanted Mutton'

@@ -1,7 +1,9 @@
 package com.array64.enchantedFoodAndOres;
 
+import com.array64.enchantedFoodAndOres.events.AnimalDropListener;
 import com.array64.enchantedFoodAndOres.events.BlockDropListener;
-import org.bukkit.Bukkit;
+import com.array64.enchantedFoodAndOres.events.CraftingListener;
+import com.array64.enchantedFoodAndOres.events.EatingListener;
 import org.bukkit.plugin.java.JavaPlugin;
 
 public final class EnchantedFoodAndOres extends JavaPlugin {
@@ -13,6 +15,9 @@ public final class EnchantedFoodAndOres extends JavaPlugin {
         saveDefaultConfig();
         instance = this;
         getServer().getPluginManager().registerEvents(new BlockDropListener(), this);
+        getServer().getPluginManager().registerEvents(new CraftingListener(), this);
+        getServer().getPluginManager().registerEvents(new EatingListener(), this);
+        getServer().getPluginManager().registerEvents(new AnimalDropListener(), this);
     }
     public static JavaPlugin getInstance() {
         return instance;
